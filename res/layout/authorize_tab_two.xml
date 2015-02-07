@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZiGi code (This code can get on website zigi.net.ua or send request on mail support@zigi.net.ua)" />
+
+    <EditText
+        android:id="@+id/auth_tab_two_editText_zigi_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="now is not supported" >
+
+        <requestFocus />
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/auth_tab_two_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="save settings" />
+
+    <Button
+        android:id="@+id/auth_tab_two_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Ok" />
+
+</LinearLayout>
